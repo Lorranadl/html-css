@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador </p>
+    <p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+<source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-G.png" alt="imagem flexivel">
+        </picture>
+    </p>
+    <h2>Reproduzindo audios</h2>
+    <p>vamos reproduzir audio em HTML.5</p>
+    <audio preload="metadata" autoplay controls loop>
+            <source src="midea/Animal Bark And Growl.mp3" type="audio/mpeg">
+            <source src="midea/Animal Bark And Growl.mp3" type="audio/ogg">
+            <source src="midea/Animal Bark And Growl.mp3" type="audio/wav">
+            <p>infelizmente seu navegador não carregaaudio mp3. <a href="midea/Animal Bark And Growl.mp3">Clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+     </h1>
+     <!-- formas de adicionar audios MP3 WAV OGG-->
+    <!--outra forma de adicionar audio a baixo-->
+        <!--a ordem e importante, ele carregara o audioInfelizmente seu navegador não consegue reproduzir audio <a href="midea/Animal Bark And Growl.mp3">Clique aqui para baixar o arquivo mp3 por ordem-->
+
+    
+</body>
+</html>
